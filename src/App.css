@@ -151,3 +151,26 @@
     display: none;
   }
 }
+
+
+
+.counter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.counter-actions button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.counter-actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
