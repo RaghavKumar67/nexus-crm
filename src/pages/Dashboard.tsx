@@ -15,6 +15,7 @@ function Dashboard() {
         <DashboardCard title="Total Contacts" value={0} />
         <DashboardCard title="Active Deals" value={0} />
         <DashboardCard title="Pending Tasks" value={0} />
+        <ContactCounter />
       </section>
     </main>
   );
